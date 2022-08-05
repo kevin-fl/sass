@@ -1,0 +1,7 @@
+// mixins c est du code reutilisable , on peux utiliser plusieurs fois
+//le underscore _mixins.scss permet de ne pas compiler en css , ex : le fichier style.scss n a pas d underscore du coup ca compile a chaque fois qu on fait ctrl+s . 
+//car le processor compile a chaque changement sur le fichier style.scss (check le terminal , mm principe que npm run dev )
+// j aurais pu cree un dossier partials 
+//le scss permet d ecrire une norme (exemple $header-color-h1): green;
+// et le changement se fera partout dans le css , il va convertir en la couleur green directement ou j ai ecrit $header-color*h1:green .
+//.gitignore on inscrit le fichier node_modules car volumineux on veut pas le partager si on met le projet sur github par exemple 
